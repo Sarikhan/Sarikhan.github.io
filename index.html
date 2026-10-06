@@ -11,14 +11,21 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://sarihamoud.com/">
   <meta property="og:image" content="https://sarihamoud.com/images/portrait-who-summit.jpg">
+  <meta name="theme-color" content="#0d1b2e">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230d1b2e'/%3E%3Ctext x='32' y='43' font-size='30' text-anchor='middle' fill='%23fff' font-family='Georgia,serif'%3ESH%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="image" type="image/webp" href="images/portrait-who-summit-480.webp" imagesrcset="images/portrait-who-summit-480.webp 480w, images/portrait-who-summit-720.webp 720w, images/portrait-who-summit-1100.webp 1100w" imagesizes="(max-width: 900px) 90vw, 470px">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400&family=Public+Sans:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400&display=swap&text=%D8%AF.%20%D8%B3%D8%A7%D8%B1%D9%8A%20%D8%AD%D9%85%D9%88%D8%AF">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="site-header">
   <div class="container nav">
     <a class="brand" href="#home">Sari Hamoud <span class="ar" lang="ar">ساري حمود</span></a>
-    <button class="menu-toggle" aria-label="Open navigation">☰</button>
-    <nav>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav">☰</button>
+    <nav id="site-nav">
       <a href="#interpretation">Interpretation</a>
       <a href="#academia">Academia</a>
       <a href="#journalism">Journalism</a>
@@ -42,7 +49,7 @@
       </div>
     </div>
     <figure class="hero-photo">
-      <img src="images/portrait-who-summit.jpg" alt="Dr. Sari Hamoud in a navy suit and red tie, wearing a conference badge, standing in front of national flags" width="1100" height="1299">
+      <picture><source type="image/webp" srcset="images/portrait-who-summit-480.webp 480w, images/portrait-who-summit-720.webp 720w, images/portrait-who-summit-1100.webp 1100w" sizes="(max-width: 900px) 90vw, 470px"><img src="images/portrait-who-summit.jpg" alt="Dr. Sari Hamoud in a navy suit and red tie, wearing a conference badge, standing in front of national flags" width="720" height="850" decoding="async" fetchpriority="high"></picture>
       <figcaption>At the WHO Traditional Medicine Global Summit, India.</figcaption>
     </figure>
   </div>
@@ -53,7 +60,7 @@
     <div class="fact"><strong>100+</strong><span>days of conference interpretation</span></div>
     <div class="fact"><strong>45</strong><span>assignments, most as team leader</span></div>
     <div class="fact"><strong>3</strong><span>remote-interpreting platform certifications</span></div>
-    <div class="fact"><strong>Arabic ↔ English</strong><span>working languages</span></div>
+    <div class="fact"><strong class="fact-text">Arabic ↔ English</strong><span>working languages</span></div>
   </div>
 </section>
 
@@ -150,7 +157,7 @@
       </article>
     </div>
 
-    <h3 style="margin-top:60px">Education</h3>
+    <h3 class="edu-title">Education</h3>
     <ul class="edu">
       <li><span class="when">2016–2023</span><div><strong>PhD in Psycholinguistics</strong><span>Jawaharlal Nehru University. Passed with distinction (A+). Supervised by Prof. Ayesha Kidwai, with Prof. Pramod Pandey and Prof. Samar Husain as co-supervisors.</span></div></li>
       <li><span class="when">2023</span><div><strong>Diploma in UN Studies</strong><span>Institute of UN Studies, New Delhi. First division.</span></div></li>
@@ -174,19 +181,19 @@
     </div>
     <div class="gallery">
       <figure class="g-tall">
-        <img src="images/portrait-india-gate.jpg" alt="Dr. Sari Hamoud holding a blue television microphone on the lawns near India Gate, New Delhi" loading="lazy" width="1000" height="1546">
+        <picture><source type="image/webp" srcset="images/portrait-india-gate-480.webp 480w, images/portrait-india-gate-720.webp 720w, images/portrait-india-gate-1000.webp 1000w" sizes="(max-width: 900px) 100vw, 440px"><img src="images/portrait-india-gate.jpg" alt="Dr. Sari Hamoud holding a blue television microphone on the lawns near India Gate, New Delhi" width="720" height="1113" decoding="async" loading="lazy"></picture>
         <figcaption>Presenting to camera near India Gate, New Delhi.</figcaption>
       </figure>
       <figure class="g-mid">
-        <img src="images/field-delhi-reporting.jpg" alt="Dr. Sari Hamoud doing a piece to camera on a pedestrian street in old Delhi, with the Red Fort behind and a cameraman filming" loading="lazy" width="1600" height="1200">
+        <picture><source type="image/webp" srcset="images/field-delhi-reporting-480.webp 480w, images/field-delhi-reporting-800.webp 800w, images/field-delhi-reporting-1200.webp 1200w" sizes="(max-width: 900px) 100vw, 660px"><img src="images/field-delhi-reporting.jpg" alt="Dr. Sari Hamoud doing a piece to camera on a pedestrian street in old Delhi, with the Red Fort behind and a cameraman filming" width="800" height="600" decoding="async" loading="lazy"></picture>
         <figcaption>Filming a report in Old Delhi, with the Red Fort in the background.</figcaption>
       </figure>
       <figure class="g-wide">
-        <img src="images/field-g20.jpg" alt="Dr. Sari Hamoud checking a shot through a broadcast camera on a tripod during G20 coverage" loading="lazy" width="1800" height="810">
+        <picture><source type="image/webp" srcset="images/field-g20-480.webp 480w, images/field-g20-800.webp 800w, images/field-g20-1200.webp 1200w, images/field-g20-1600.webp 1600w" sizes="(max-width: 900px) 100vw, 660px"><img src="images/field-g20.jpg" alt="Dr. Sari Hamoud checking a shot through a broadcast camera on a tripod during G20 coverage" width="1200" height="540" decoding="async" loading="lazy"></picture>
         <figcaption>Setting up a shot during G20 coverage.</figcaption>
       </figure>
     </div>
-    <p style="margin-top:34px"><a href="https://drive.google.com/drive/folders/1Lzl14zcxn5rjq3RxK_0j_4meD8ZJpSy_?usp=sharing">Open my media consultant portfolio</a></p>
+    <p class="gallery-link"><a href="https://drive.google.com/drive/folders/1Lzl14zcxn5rjq3RxK_0j_4meD8ZJpSy_?usp=sharing">Open my media consultant portfolio</a></p>
   </div>
 </section>
 
@@ -245,8 +252,16 @@
 <script>
 const toggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('nav');
-toggle.addEventListener('click', () => nav.classList.toggle('open'));
-document.querySelectorAll('nav a').forEach(a => a.addEventListener('click', () => nav.classList.remove('open')));
+function setMenu(open) {
+  nav.classList.toggle('open', open);
+  toggle.setAttribute('aria-expanded', open);
+  toggle.textContent = open ? '✕' : '☰';
+  toggle.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
+}
+toggle.addEventListener('click', () => setMenu(!nav.classList.contains('open')));
+nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+document.addEventListener('keydown', e => { if (e.key === 'Escape') setMenu(false); });
+document.addEventListener('click', e => { if (!nav.contains(e.target) && !toggle.contains(e.target)) setMenu(false); });
 </script>
 </body>
 </html>
